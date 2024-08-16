@@ -72,26 +72,26 @@ To generate data and run experiments in the synthetic Navier-Stokes environment,
 
 To download and preprocess data and run experiments in the real-world WeatherBench environment, please go to [the respective subdirectory](src/dlwpbench/) and follow the steps detailed there.
 
-### Leaderboards
+### Scoreboards
 
 8 Prognostic Variables, 5.625° Resolution
 
 | Model | Z500 RMSE [3/5/7/365 days] | Blow up time | Blow up T+5°C | Stable | Reference |
 |-------|----------------------------|--------------|---------------|--------|-----------|
-| ConvLSTM | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
-| ConvLSTM HPX | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
-| U-Net | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
-| U-Net HPX | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
-| SwinTransformer | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
-| SwinTransformer HPX | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
-| MeshGraphNet | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
-| FNO2D | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
-| TFNO2D | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
-| FourCastNet p1x1 | ... | ... | ... | yes | [Karlbauer et al. 2024]() | 
-| FourCastNet p1x2 | ... | ... | ... | yes | [Karlbauer et al. 2024]() | 
-| SFNO | ... | ... | ... | yes | [Karlbauer et al. 2024]() | 
-| Pangu-Weather | ... | ... | ... | yes | [Karlbauer et al. 2024]() | 
-| GraphCast | ... | ... | ... | yes | [Karlbauer et al. 2024]() | 
+| ConvLSTM | ... | ... | ... | no | ... | 
+| ConvLSTM HPX | ... | ... | ... | no | ... | 
+| U-Net | ... | ... | ... | no | ... | 
+| U-Net HPX | ... | ... | ... | no | ... | 
+| SwinTransformer | ... | ... | ... | yes | ... | 
+| SwinTransformer HPX | ... | ... | ... | yes | ... | 
+| MeshGraphNet | ... | ... | ... | no | ... | 
+| FNO2D | ... | ... | ... | no | ... | 
+| TFNO2D | ... | ... | ... | no | ... | 
+| FourCastNet p1x1 | ... | ... | ... | yes | ... | 
+| FourCastNet p1x2 | ... | ... | ... | yes | ... | 
+| SFNO | ... | ... | ... | yes | ... | 
+| Pangu-Weather | ... | ... | ... | yes | ... | 
+| GraphCast | ... | ... | ... | yes | ... | 
 
 ---
 221 Prognostic Variables, 5.625° Resolution
