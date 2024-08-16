@@ -1,20 +1,6 @@
 # Deep Learning Weather Prediction Model and Backbone Comparison on Navier-Stokes and WeatherBench
 
-A benchmark to compare different deep learning models and their backbones on synthetic Navier-Stokes and real-world data from [WeatherBench](https://arxiv.org/abs/2002.00469), published in the [ICLR 2024 AI4DiffEq Workshop](https://ai4diffeqtnsinsci.github.io/) and in the [NeurIPS 2024 Datasets and Benchmarks](https://neurips.cc/Conferences/2024/CallForDatasetsBenchmarks) track:
-
-- [Comparing and Contrasting Deep Learning Weather Prediction Backbones on Navier-Stokes Dynamics](https://openreview.net/forum?id=jxfjvks0d7) (workshop paper)
-- [Comparing and Contrasting Deep Learning Weather Prediction Backbones on Navier-Stokes and Atmospheric Dynamics](https://arxiv.org/abs/2407.14129)
-
-If you find this work useful, please cite our paper
-
-```
-@article{karlbauer2024comparing,
-  title={Comparing and Contrasting Deep Learning Weather Prediction Backbones on Navier-Stokes and Atmospheric Dynamics},
-  author={Karlbauer, Matthias and Maddix, Danielle C and Ansari, Abdul Fatir and Han, Boran and Gupta, Gaurav and Wang, Yuyang and Stuart, Andrew and Mahoney, Michael W},
-  journal={arXiv preprint arXiv:2407.14129},
-  year={2024}
-}
-```
+A benchmark to compare different deep learning models and their backbones on synthetic Navier-Stokes and real-world data from [WeatherBench](https://arxiv.org/abs/2002.00469).
 
 ## Getting Started
 
