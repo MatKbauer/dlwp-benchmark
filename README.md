@@ -16,7 +16,6 @@ If you find this work useful, please cite our paper
 }
 ```
 
-
 ## Getting Started
 
 To install the package, first create an environment, cd into it, and install the DLWPBench package via
@@ -58,7 +57,7 @@ pip install dgl -f https://data.dgl.ai/wheels/cu121/repo.html
 pip install dglgo -f https://data.dgl.ai/wheels-test/repo.html
 ```
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > This DGL version requires CUDA 12.1 to be installed, e.g., following [these instructions](https://developer.nvidia.com/cuda-12-1-0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local)
 
 Finally, change into the benchmark directory, which will be considered the root directory in the following, that is, `cd src/dlwpbench`
@@ -72,6 +71,39 @@ To generate data and run experiments in the synthetic Navier-Stokes environment,
 ## WeatherBench
 
 To download and preprocess data and run experiments in the real-world WeatherBench environment, please go to [the respective subdirectory](src/dlwpbench/) and follow the steps detailed there.
+
+### Leaderboards
+
+8 Prognostic Variables, 5.625° Resolution
+
+| Model | Z500 RMSE [3/5/7/365 days] | Blow up time | Blow up T+5°C | Stable | Reference |
+|-------|----------------------------|--------------|---------------|--------|-----------|
+| ConvLSTM | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
+| ConvLSTM HPX | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
+| U-Net | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
+| U-Net HPX | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
+| SwinTransformer | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
+| SwinTransformer HPX | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
+| MeshGraphNet | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
+| FNO2D | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
+| TFNO2D | ... | ... | ... | no | [Karlbauer et al. 2024]() | 
+| FourCastNet p1x1 | ... | ... | ... | yes | [Karlbauer et al. 2024]() | 
+| FourCastNet p1x2 | ... | ... | ... | yes | [Karlbauer et al. 2024]() | 
+| SFNO | ... | ... | ... | yes | [Karlbauer et al. 2024]() | 
+| Pangu-Weather | ... | ... | ... | yes | [Karlbauer et al. 2024]() | 
+| GraphCast | ... | ... | ... | yes | [Karlbauer et al. 2024]() | 
+
+---
+221 Prognostic Variables, 5.625° Resolution
+
+| Model | Z500 RMSE [3/5/7/365 days] | Blow up time | Blow up T+5°C | Stable | Reference |
+|-------|----------------------------|--------------|---------------|--------|-----------|
+
+---
+221 Prognostic Variables, 0.25° Resolution
+
+| Model | Z500 RMSE [3/5/7/365 days] | Blow up time | Blow up T+5°C | Stable | Reference |
+|-------|----------------------------|--------------|---------------|--------|-----------|
 
 
 ## Resources
