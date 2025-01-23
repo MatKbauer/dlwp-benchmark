@@ -58,40 +58,6 @@ To generate data and run experiments in the synthetic Navier-Stokes environment,
 
 To download and preprocess data and run experiments in the real-world WeatherBench environment, please go to [the respective subdirectory](src/dlwpbench/) and follow the steps detailed there.
 
-### Scoreboards
-
-8 Prognostic Variables, 5.625° Resolution
-
-| Model | Z500 RMSE [3/5/7/365 days] | Blow up time | Blow up T+5°C | Stable | Reference |
-|-------|----------------------------|--------------|---------------|--------|-----------|
-| ConvLSTM | ... | ... | ... | no | ... | 
-| ConvLSTM HPX | ... | ... | ... | no | ... | 
-| U-Net | ... | ... | ... | no | ... | 
-| U-Net HPX | ... | ... | ... | no | ... | 
-| SwinTransformer | ... | ... | ... | yes | ... | 
-| SwinTransformer HPX | ... | ... | ... | yes | ... | 
-| MeshGraphNet | ... | ... | ... | no | ... | 
-| FNO2D | ... | ... | ... | no | ... | 
-| TFNO2D | ... | ... | ... | no | ... | 
-| FourCastNet p1x1 | ... | ... | ... | yes | ... | 
-| FourCastNet p1x2 | ... | ... | ... | yes | ... | 
-| SFNO | ... | ... | ... | yes | ... | 
-| Pangu-Weather | ... | ... | ... | yes | ... | 
-| GraphCast | ... | ... | ... | yes | ... | 
-
----
-221 Prognostic Variables, 5.625° Resolution
-
-| Model | Z500 RMSE [3/5/7/365 days] | Blow up time | Blow up T+5°C | Stable | Reference |
-|-------|----------------------------|--------------|---------------|--------|-----------|
-
----
-221 Prognostic Variables, 0.25° Resolution
-
-| Model | Z500 RMSE [3/5/7/365 days] | Blow up time | Blow up T+5°C | Stable | Reference |
-|-------|----------------------------|--------------|---------------|--------|-----------|
-
-
 ## Resources
 
 Deep learning model repositories that are used in this study:
